@@ -38,8 +38,8 @@ use PHPMailer\PHPMailer\PHPMailer;
                     $mail->isSMTP();
                     $mail->Host = "smtp.gmail.com";
                     $mail->SMTPAuth = true;
-                    $mail->Username = "mail.eventwala@gmail.com"; //Enter you email address
-                    $mail->Password = '7266050283@v'; //Enter you email password
+                    $mail->Username = "example@gmail.com"; //Enter you email address
+                    $mail->Password = '........'; //Enter you email password
                     $mail->Port = 465;
                     $mail->SMTPSecure = "ssl";
 
