@@ -1,0 +1,231 @@
+
+html{
+    margin: 0px;
+}
+head{
+    margin: 0px;
+}
+body{
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+    overflow-x: hidden;
+    height: 100%;
+    font-size: 18px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    
+    
+}
+.rating {
+    color:yellowgreen;
+}
+
+#discount {
+    background:teal;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 15px;
+    color: yellowgreen;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    background: lightblue;
+    background: radial-gradient(white 30%,lightblue 70%);
+}
+.fa-star{
+margin: 2px;
+}
+
+/* just about team developers styling*/
+.developers {
+    position: relative;
+    width: 380px;
+    height: 480px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    background: rgba(42, 57, 58, 0.747);
+    overflow: hidden
+}
+
+.developers .image-container {
+    height: 50%;
+    box-sizing: border-box
+}
+
+.developers .image-container img {
+    display: block;
+    width: 97%;
+    margin: auto
+}
+
+.kvs-sliding-updown {
+    position: absolute;
+    width: 100%;
+    bottom: -160px;
+    /* background: #fff;*/
+    padding: 10px;
+    box-sizing: border-box;
+    transition: .5s
+}
+
+.developers:hover .kvs-sliding-updown {
+    bottom: 0
+}
+/* just about team developers styling ,ended here*/
+b{
+    color:#5cb85c
+}
+#kvs72{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    margin-bottom: 20px;
+
+}
+.fa-calendar {
+    font-size: 24px;
+    color: #5cb85c;
+}
+
+.border {
+    border-left: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    
+}
+
+.datepicker {
+    background-color: #5cb85c;
+    border-radius: 0 !important;
+    align-content: center !important;
+    padding: 0 !important
+}
+
+.datepicker-dropdown {
+    top: 80px !important;
+    left: calc(50% - 170px) !important;
+    border-right: #5cb85c;
+    border-left: #5cb85c;
+}
+
+.datepicker-dropdown.datepicker-orient-left:before {
+    left: calc(50% - 6px) !important
+}
+
+.datepicker-dropdown.datepicker-orient-left:after {
+    left: calc(50% - 5px) !important;
+    border-bottom-color: #1976D2
+}
+
+.datepicker-dropdown.datepicker-orient-right:after {
+    border-bottom-color: #1976D2
+}
+
+.datepicker table tr td.today,
+span.focused {
+    border-radius: 50% !important;
+    background-image: linear-gradient(#FFF3E0, #FFE0B2)
+}
+
+thead tr:nth-child(2) {
+    background-color: rgba(0, 0, 0, 0.849) !important
+}
+
+thead tr:nth-child(3) th {
+    font-weight: bold !important;
+    padding: 20px 10px !important;
+    color: #c5baba !important
+}
+
+tbody tr td {
+    padding: 14px !important
+}
+
+tfoot tr:nth-child(2) th {
+    padding: 10px !important;
+    border-top: 1px solid #CFD8DC !important
+}
+
+.cw {
+    font-size: 14px !important;
+    background-color: #E8EAF6 !important;
+    border-radius: 0px !important;
+    padding: 0px 20px !important;
+    margin-right: 10px solid #fff !important
+}
+
+.old,
+.day,
+.new {
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 0px !important
+}
+
+.day.old,
+.day.new {
+    color: #E0E0E0 !important
+}
+
+.day.old:hover,
+.day.new:hover {
+    border-radius: 50% !important
+}
+
+.old-day:hover,
+.day:hover,
+.new-day:hover,
+.month:hover,
+.year:hover,
+.decade:hover,
+.century:hover {
+    border-radius: 50% !important;
+    background-color: #eee
+}
+
+/*.active {
+    border-radius: 50% !important;
+    background-image: linear-gradient(#1976D2, #114e8b) !important;
+    color: #fff !important
+}*/
+
+.range-start,
+.range-end {
+    border-radius: 50% !important;
+    background-image: linear-gradient(#1976D2, #25609b) !important
+}
+
+.range {
+    background-color: #108310c4 !important
+}
+
+.prev,
+.next,
+.datepicker-switch {
+    border-radius: 0 !important;
+    padding: 10px 10px 10px 10px !important;
+    font-size: 18px;
+    text-align: center;
+    opacity: 0.7;
+    color: #5cb85c;
+}
+
+.prev:hover,
+.next:hover,
+.datepicker-switch:hover {
+    background-color: inherit !important;
+    opacity: 1;
+    cursor: pointer;
+
+}
+
+@media screen and (max-width: 726px) {
+    .datepicker-dropdown.datepicker-orient-right:before {
+        right: calc(50% - 6px)
+    }
+
+    .datepicker-dropdown.datepicker-orient-right:after {
+        right: calc(50% - 5px)
+    }
+}
+
